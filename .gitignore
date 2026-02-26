@@ -1,0 +1,15 @@
+node_modules/
+.DS_Store
+
+# Working copies (skills/ is the distributable)
+Clangs_skills/
+bin/
+package.json
+skills-lock.json
+
+# Local agent installs
+.agents/
+
+# IDE
+.cursor/projects/
+assets/
