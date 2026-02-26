@@ -7,7 +7,7 @@ A comprehensive agent skill for AI-assisted development of safety-critical autom
 ## Folder Structure
 
 ```
-Clangs_skills/
+automotive-embedded-skills/
 ├── SKILL.md              # Skill entry point — read by AI agents on activation
 ├── AGENTS.md             # Detailed agent instructions (coding rules, patterns, workflow)
 ├── README.md             # This file — project overview and contributing guide
