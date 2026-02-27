@@ -22,6 +22,26 @@ Or browse and install all skills in this collection:
 npx skills add Washabii14/agent-skills
 ```
 
+**NOTE**: If you encounter a proxy error such as the following:
+```
+npm error code ENOTFOUND
+npm error syscall getaddrinfo
+npm error errno ENOTFOUND
+npm error network request to https://registry.npmjs.org/skills failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+npm error network This is a problem related to network connectivity.
+npm error network In most cases you are behind a proxy or have bad network settings.
+npm error network
+npm error network If you are behind a proxy, please make sure that the
+npm error network 'proxy' config is set properly.  See: 'npm help config'
+npm error A complete log of this run can be found in: C:\Users\PGU7HC\AppData\Local\npm-cache\_logs\2026-02-27T10_42_20_910Z-debug-0.log
+```
+
+You need to set up the proxy (see the VPN or Proxy settings in your Windows Settings application):
+```shell
+npm config set proxy http://proxy.company.com:8080
+npm config set https-proxy http://proxy.company.com:8080
+```
+
 After installation, the skill is available to your AI agent (Cursor, Codex, GitHub Copilot, Claude Code, etc.). No configuration needed.
 
 ---
